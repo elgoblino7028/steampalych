@@ -104,11 +104,8 @@ function App() {
 
             <div className="layout_rows">
               <div className="first_row">
-                {/* <div className="main_logo">
-                  <h1>
-                    Steam<span className="highlight">Palych</span>
-                  </h1>
-                </div> */}
+                <div className="main_logo">
+                </div>
                 <div className="main_block">
                   <h1 className="main_title">
                     Пополните баланс аккаунта стим
