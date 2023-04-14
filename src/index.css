@@ -1,9 +1,25 @@
 :root {
   --font: "Montserrat", sans-serif;
   --background: #15171a;
+  --scroll-bar-background: #1e2125;
   --main: #f6c90e;
   --dark_main-1: #d6b114;
   --dark_main-2: #187527;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-bar-background);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #24282c;
 }
 body,
 html {
